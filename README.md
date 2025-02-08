@@ -4,9 +4,12 @@
 
 Python: 3.9.6  
 paho-mqtt: 2.1.0   
+Mosquitto: 2.0.20  
 Swift: 5.10  
 Xcode: 15.4  
 CocoaMQTT: 2.1.7  
+
+---  
 
 ### 실험과 결과...  
 
@@ -30,13 +33,19 @@ CocoaMQTT: 2.1.7
 검증 작업은 성공적으로 완료되었으니 해당 기술로 구상했던 개인 프로젝트에 돌입 예정.  
 이하부턴 본 프로젝트의 가벼운 정리 정도 기술..  
 
+---  
+
 ### 사용법
 
-1. `paho-mqtt` 설치  
+1. `mosquitto`, `paho-mqtt` 설치  
 
 ```   
+brew install mosquitto  
 pip install paho-mqtt  
 ```
+
+MQTT Broker를 위해 mosquitto 설치  
+MQTT client 사용을 위해 paho-mqtt 설치 (브로커와 통신을 위해)   
 
 2. Mosquitto Broker 실행  
 
