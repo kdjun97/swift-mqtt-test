@@ -4,7 +4,7 @@
 
 Python: 3.9.6  
 paho-mqtt: 2.1.0   
-Mosquitto: 2.0.20  
+mosquitto: 2.0.20  
 Swift: 5.10  
 Xcode: 15.4  
 CocoaMQTT: 2.1.7  
@@ -53,6 +53,8 @@ MQTT client 사용을 위해 paho-mqtt 설치 (브로커와 통신을 위해)
 /opt/homebrew/opt/mosquitto/sbin/mosquitto -c /opt/homebrew/etc/mosquitto/mosquitto.conf  
 ```  
 
+> **이 시점에 broker 실행.**  
+
 설명 
 
 homebrew로 설치한 Mosquitto 브로커를 실행하는 명령어: `/opt/homebrew/opt/mosquitto/sbin/mosquitto` 
@@ -69,8 +71,6 @@ bind_address: 특정 IP에서만 접속 허용
 allow_anonymous: true -> 인증 필요 없음 , false -> 인증 필요  
 
 **이번 프로젝트에서는 비밀번호 등 다른 보안은 신경쓰지 않음.**  
-
-> **이 시점에 broker 실행.**  
 
 3. MQTT pub/sub 작업 (python)  
 
