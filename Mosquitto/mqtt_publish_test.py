@@ -9,9 +9,11 @@ client = mqtt.Client()
 
 client.connect(broker, port, 60)
 
+now = datetime.now().strftime("%H:%M:%S")
+
 # 발행할 토픽과 메시지
 topic = "test/topic"
-message = "Hello, MQTT!"
+message = f"Hello, MQTT!: {now}"
 
 # 메시지 발행
 client.publish(topic, message)
