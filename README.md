@@ -1,5 +1,13 @@
 # MQTT 통신 테스트
 
+### 결과 영상  
+
+|**`Python 영상`**||**`아이폰 영상`**|
+|:-------------:|:-------------:|
+|<img src="https://github.com/kdjun97/swift-mqtt-test/blob/master/Assets/mosquitto.gif?raw=true" width="500" height="300">|<img src="https://github.com/kdjun97/swift-mqtt-test/blob/master/Assets/swift_mqtt.gif?raw=true" width="143" height="300">|
+
+---  
+
 ### 개발 환경  
 
 Python: 3.9.6  
