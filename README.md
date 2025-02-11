@@ -1,5 +1,7 @@
 # MQTT 통신 테스트
 
+[Python Mosquitto와 iPhone에서의 MQTT 통신 테스트](https://kdjun97.github.io/iot/swift-mqtt-test/)  
+
 ### 결과 영상  
 
 |**`Python 영상`**|**`아이폰 영상`**|
